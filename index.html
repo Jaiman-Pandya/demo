@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base target="_blank">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Jaiman Pandya | Portfolio</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div id="container">
+        <nav>
+            <button id="day-night">
+                <i class="fas fa-sun"></i>
+            </button>
+        </nav>
+
+        <div id="contact-left">
+            <div id="contact-line"></div>
+            <div id="contact-left-links">
+                <a href="https://www.instagram.com/jaiman.pandya/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jaiman-pandya-825350234/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:jaimanpandya@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/priya180975"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <main>
+            <div id="about" class="block">
+                <div class="heading" id="heading--main"></div>
+                <p>                    
+                    <span style="font-size: 2rem;">👋</span> Hey! My name is <span style="color: green;">Jaiman</span>!
+                    <br>I am currently a junior at Trabuco Hills High School pursuing Computer Science and Machine Learning. I'm also a research assistant at UC San Diego where my role is to aide a neuroscience professor and two graduate students in their clinical research. I'm also the founder of Neuracode, a nonprofit organization dedicated to democratizing AI and Machine Learning for everyone. Feel free to connect with me!
+                    <!-- add info -->
+                </p>
+            </div>
+
+            
+
+            <div id="edu" class="block" data-aos="slide-up" data-aos-duration="1000" data-aos-easing="ease-in-out-back">
+                <div class="heading">Education</div>
+                <div class="edu-block-main">
+                    <div class="edu-block-sub">
+                        <div class="edu-block" data-aos="flip-down">
+                            <span class="edu-block-heading">Trabuco Hills High School </span>
+                            <p>
+                                11th Grade Coursework: IB Math A&A SL, IB Environmental Science SL, IB English 3 HL1, IB Psychology SL, AP Statistics, AP United States History, Physics Honors
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="edu" class="block" data-aos="slide-up" data-aos-duration="1000" data-aos-easing="ease-in-out-back">
+                <div class="heading">Involvement</div>
+                <div class="edu-block-main">
+                    <div class="edu-block-sub">
+                        <div class="edu-block" data-aos="flip-down">
+                            <span class="edu-block-heading">Oxford Preperatory Academy (January 2022 - Present) </span>
+                            <p>
+                                Work alongside the Chancellor/Principal and Parents at alma mater to assist in student achievement, school budget, and curating specific instructional strategies/resources to respond to the individual needs of all students
+                            </p>
+                            <span class="edu-block-heading">UC Irvine (February 2022 - Present)</span>
+                            <p>
+                                Interned at UCI and learned about Neural Networks / aided UCI undergraduate students to develop an algorithm that can analyze data effectively as well as produce a rigorous P-value. Solved challenge problem and had skills analyzed in order to be considered for acceptance. Supervised by UCI Computer Science Professor. Currently converting .py script into a Scikit-learn algorithm.
+                            </p>
+                            <span class="edu-block-heading">UC San Diego (July 2022 - Present) </span>
+                            <p>
+                                Currently aiding UC San Diego professor and two graduate students in performing cognitive research through clinical settings in a research lab. Learning about sound shape conversions, experimental aesthetics, and vision aesthetics.
+                            </p>
+                            <span class="edu-block-heading">Johnson and Johnson Innovation Labs (June 2022 - August 2022) </span>
+                            <p>
+                                Landed an internship as a high schooler at one of the largest pharmaceutical companies in the world with a team of other motivated researchers. Mentors include alumni from UC Berkeley, UCLA, Cornell, USC, and Harvard. J&J executives assist with project creation and research.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="block" id="contact" >
+                <div class="heading">CONTACT</div>
+                <form  action="https://formspree.io/f/xqkjeayd"  method="POST" id="contact-block" data-aos="slide-right" data-aos-duration="1000" data-aos-easing="ease-in-out-back">
+                    <div class="contact-input">
+                        <label for="name">Name</label>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="contact-input">
+                        <label for="email">Email</label>
+                        <input type="email" name="_replyto">
+                    </div>
+                    <div class="contact-input">
+                        <label for="message">Message</label>
+                        <textarea name="message"></textarea>
+                    </div>
+                    <button  type="submit">Submit</button>
+                </form>
+            </div>
+
+        </main>
+    </div>
+    <div id="contact-links">
+        <a href="https://twitter.com/priya180975"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/priya-nayak-564a6b203/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:jaimanpandya@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/Jaiman-Pandya"><i class="fab fa-github"></i></a>
+    </div>
+    <footer>
+        Made with ❤️ by Jaiman Pandya
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
